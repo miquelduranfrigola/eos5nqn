@@ -1,6 +1,6 @@
 python: "3.11"
 commands:
-    - "pip install git+https://github.com/bp-kelley/descriptastorus@2.7.0"
+    - ["pip", "git+https://github.com/bp-kelley/descriptastorus@2.7.0"]
     - ["pip", "joblib", "1.5.2"]
     - ["pip", "pytorch-lightning", "1.9.5"]
     - ["pip", "torch_geometric", "2.7.0"]
